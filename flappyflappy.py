@@ -1,11 +1,11 @@
 import pygame, sys
 
 def draw_floor():
-    screen.blit(floor_surface, (floor_x_pos,900))
-    screen.blit(floor_surface, (floor_x_pos + 576,900))
+    screen.blit(floor_surface, (floor_x_pos,626))
+    screen.blit(floor_surface, (floor_x_pos + 576,626))
 
 pygame.init()
-screen = pygame.display.set_mode((576,1024))
+screen = pygame.display.set_mode((422,750))
 clock = pygame.time.Clock()
 
 bg_surface = pygame.image.load('Assets/background-day.png').convert()
