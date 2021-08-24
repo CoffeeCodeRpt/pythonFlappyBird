@@ -36,7 +36,7 @@ followed by a space and a file path. Make sure your PowerShell terminal location
 is set to the root of the Flappybird project.
 
 ```powershell
-. /flappybird-env/bin/Activate.ps1
+. ./flappybird-env/bin/Activate.ps1
 ```
 
 This should start the virtual environment and your terminal prompt will have an
